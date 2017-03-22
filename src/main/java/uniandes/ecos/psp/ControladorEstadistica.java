@@ -63,7 +63,7 @@ public class ControladorEstadistica
     public void calcularTamanioRelativo() throws Exception
     {
         String rutaBase = new File("").getAbsolutePath();
-        rutaArchivo = rutaBase.concat("/TestData/Data.txt");
+        rutaArchivo = rutaBase.concat("/resources/testdata/Data.txt");
         System.out.println(rutaArchivo);
         ManejadorArchivo manejadorArchivo = new ManejadorArchivo();
         datosEntrada = manejadorArchivo.obtenerDatosArchivo(rutaArchivo);
